@@ -72,7 +72,7 @@ console.log(blue curve crushers win)
 else:
 console.log(purple brave hearts win)
 if pink score>=forty:
-console.Log(pink covid disease fighters win)
+console.log(pink covid disease fighters win)
 else:
 console.log(red protein spikers win)
 if burgundy score>=forty:
