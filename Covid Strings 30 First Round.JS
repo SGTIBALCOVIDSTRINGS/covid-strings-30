@@ -35,7 +35,7 @@ round div=create element
 round div class name=covid strings30 first round
 bracket.appendchild(round div)
 if (event.target.covid strings seed list.contains(matchup))
-event.target.covid strings seed list.toggle
+return matchup
 else:
 addmatchup
 java util.scanner
