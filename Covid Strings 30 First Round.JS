@@ -22,10 +22,10 @@ third lowest seed= seed6
 second lowest seed =seed7
 lowest overall seed =seed8
 covid strings team list30=[burgundy,orange,blue,pink,red,purple,violet,black]
-create matchup(violet versus orange)
-create matchup(purple versus blue)
-create matchup(red versus pink)
-create matchup(black versus burgundy)
+matchup1=(violet versus orange)
+matchup2=(purple versus blue)
+matchup3=(red versus pink)
+matchup4=(black versus burgundy)
 document.createelement 
 matchupdiv.classname=(matchup)
 matchupdiv.inner html =[matchup]
@@ -62,19 +62,22 @@ return true
 else:
 return false
 advancingteam=slice(current teams)
-result=declarewinner(team1 score, team2 score)
+result=declarewinner(matchup1)
 if orange score>=forty:
 console.log(orange rna messengers win)
 else:
 console.log(violet relivers win)
+result=declarewinner(matchup2)
 if blue score>=forty:
 console.log(blue curve crushers win)
 else:
 console.log(purple brave hearts win)
+result=declarewinner(matchup3)
 if pink score>=forty:
 console.log(pink covid disease fighters win)
 else:
 console.log(red protein spikers win)
+result=declarewinner(matchup4)
 if burgundy score>=forty:
 console.log(burgundy rebuilders win)
 else:
