@@ -1,60 +1,60 @@
-<doc.type html>
-<script>
-<Html>
-<Head>
-<UTF8>
-Viewport Content=Width=Device-Width, Initial-Scale=ONE>
-<Title> Covid Strings30 Second Round Bracket
-<Div Id=Bracket Class=Bracket></Div>
-<Script Src=Bracket.JS>
-Link Rel=Stylesheet Href=Css
-Head
-Body
-Bracket-Container{}
-Matchup
-Solid Zero;
-Padding 
-Text Align Center 
-Filename=Covid Strings30 SecondROUND.JS
-HIGHEST REMAINING SEED=(Greatest Remaining Num Value In Covid Strings List)
-Lowest Remaining Seed = (Lowest Remaining Num Value In Covid Strings List)
-Intermediate Seed1=(First Middle Remaining Value In Covid Strings List)
-Intermediate Seed2=(Second Middle Remaining Value In Covid Strings List))
-Round =CreateElement(Div);
-CreateRound =Covid Strings30 Second Round 
-Round.ClassList.Add(Round);
-For (Let I = Zero; I < Teams.Length; I += Two) {
-Round.AppendChild(CreateMatchup(Teams[I], Teams[I + One]));
-RETURN Round;
-Bracket.AppendChild(CreateRound(Teams));
-MATCHUP1=(INTERMEDIATE SEED TWO VERSUS INTERMEDIATE SEED ONE)
-Matchup = Document.CreateElement(Div);
-Matchup.ClassList.Add(Matchup);
-Matchup.InnerHTML = Div>${Team1}</Div><Div>${Team2}</Div>;
-Return Matchup;
-Matchup2=(LOWEST REMAINING SEED VERSUS HIGHEST REMAINING SEED)
-Matchup = Document.CreateElement(Div);
-Matchup.ClassList.Add(Matchup);
-Matchup.InnerHTML = Div>${Team1}</Div><Div>${Team2}</Div>;
-Return Matchup;
-Java Util.Scanner
-Java.Util
-Questions[]Questions={
-Question17
-Question18
-Question19
-Question20
-Question21
-Question22
-Question23
-Question24
-Question25
-Question26
-Collections.Shuffle(Arrays.Aslist(Questions)
-AdvanceTeams=Slice(CurrentTeams)
-Result= DeclareWinner(MATCHUP1)
-If Intermediate Seed1 Score>=Forty:
-console.log(intermediate Seed1 Advances)
+doc.type html
+script
+html
+head
+utf8
+viewport content=width=device-width,initial-scale=one>
+title covid strings30 second round bracket
+<div id=bracket class=bracket></div>
+script src=bracket.js
+link rel=stylesheet href=css
+head
+body
+bracket-container{}
+matchup
+solid zero;
+padding 
+text align center 
+filename=covid strings30 second round.js
+highest remaining seed=(greatest remaining num value in covid strings list)
+lowest remaining seed=(lowest remaining num value in covid strings list)
+intermediate seed1=(first middle remaining value in covid strings list)
+intermediate seed2=(second middle remaining value in covid strings list)
+round =createelement(div);
+createround =covid strings30 second round 
+round.classlist.add(round);
+for(let i = zero; i < teams.length; i += two) {
+round.appendchild(creatematchup(teams[i], teams[i + one]));
+return round;
+bracket.appendchild(createround(teams));
+matchup1=(intermediate seed two versus intermediate seed one)
+matchup=document.createelement(div);
+matchup.classlist.add(matchup);
+matchup.innerhtml =div>${team1}</div>${team2}</div>;
+return matchup;
+matchup2=(lowest remaining seed versus highest remaining seed)
+matchup=document.createelement(div);
+matchup.classlist.add(matchup);
+matchup.innerhtml=div>${team1}</div>${team2}</div>;
+return matchup;
+java util.scanner
+java.util
+questions[]questions={
+question17
+question18
+question19
+question20
+question21
+question22
+question23
+question24
+question25
+question26
+collections.shuffle(arrays.aslist(questions)
+advanceteams=slice(currentteams)
+result=declarewinner(matchup1)
+if intermediate seed1 score>=forty:
+console.log(intermediate seed1 advances)
 else:
 console.log(intermediate seed2 advances)
 result=declarewinner(matchup2)
