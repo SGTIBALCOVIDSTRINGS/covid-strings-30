@@ -189,11 +189,11 @@ scanner.close
 check winner:
 if winner==true:
 log(the winner is)
-If Winner==False:
-Log(No Winner Yet) 
-If Users Team Wins Covid Strings30 
-Console Log Users Team Wins Covid Strings30 
-Else
-Return Game Over
-Return Filename
+if winner==false:
+log(no winner yet) 
+if users team wins covid strings30 
+console log users team wins covid strings30 
+else
+return game over
+return filename
 
