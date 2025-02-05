@@ -3,7 +3,7 @@ script
 html
 head
 utf8
-viewport content=width=device-width,initial-scale=one>
+viewport content=width=device-width,initial-scale=one
 title covid strings30 second round bracket
 <div id=bracket class=bracket></div>
 script src=bracket.js
