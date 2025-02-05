@@ -5,6 +5,8 @@ head
 utf8
 viewportcontent=width=device-width,initial-scale=one
 title covid strings30 first round bracket
+div id bracket class bracket div
+script src bracket.js
 link rel= stylesheet href=css
 head
 body
@@ -16,7 +18,7 @@ first round=(highest overall seed ,second highest seed third highest seed, first
 highest overall seed =seed1
 second highest seed=seed2
 third highest seed=seed3
-firstmiddleseed=seed4
+first middle seed=seed4
 second middle seed =seed5
 third lowest seed= seed6
 second lowest seed =seed7
