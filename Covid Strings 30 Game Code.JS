@@ -155,11 +155,11 @@ if rotation(5,-26.5)==270 degrees clockwise:
 shift 270 degrees clockwise 
 else:
 remain
-if translation==(-6,-11):
+if translation(-5,-26.5)==(-6,-11):
 shift 6 units to the left and 11 units down
 else:
 remain
-if translation==(14,6):
+if translation(11,-37.5)==(14,6):
 shift 14 units to the right and 6 units up
 else:
 remain
